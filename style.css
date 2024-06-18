@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    height: 100vh;
+}
+.main h1 {
+    padding: 0px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+     
+.botao_login button {
+    display: flex;
+    cursor: pointer;
+    padding: 4px 8px;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    gap: 8px;
+    max-width: 400px;
+    min-width: 200px;
+    width: 300px;
+}
+.botao_login_title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}  
+
+.botao_login img{
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    justify-content: flex-start;
+    display: flex;
+}
+.botao_login google image{
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    justify-content: flex-end;
+    display: flex;
+}
+.botao_criar button{
+    border: 0 solid;
+    cursor: pointer;
+    display: flex;
+    border-radius: 50px;
+}
+.botao_entrar button{
+    border: 0 solid;
+    cursor: pointer;
+    display: flex;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.botao_login_email{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    display: flex;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.botao_login_title_email{
+    display: flex;
+    
+}
+
+.botao_conteudo{
+    flex: 1;
+}
+
+.line{
+    margin: 16px 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+}
+
+.line div{
+    height: 1px;
+    background-color: white;
+    min-width: 100px;
+}
+
+.hero_logo{
+    flex: 1;
+    height: 100%;
+}
+
+.main{
+    flex: 1;
+    height: 100%;
+}
